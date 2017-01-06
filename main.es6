@@ -1,8 +1,8 @@
 const electron = require('electron');
 const packageJSON = require('./package.json');
-const menuTemplate = require('./menuTemplate.js');
+const menuTemplate = require('./menuTemplate.es6');
 
-const app = electron.app
+const app = electron.app;
 const BrowserWindow = electron.BrowserWindow;
 
 let willQuitApp = false;
